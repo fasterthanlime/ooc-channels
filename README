@@ -1,0 +1,14 @@
+
+Dependencies:
+
+  * http://github.com/stevedekorte/basekit
+  * http://github.com/stevedekorte/coroutine
+  * http://github.com/nddrylliog/ooc-coroutine (in your $OOC_LIBS folder, probably /usr/lib/ooc/)
+  
+And obviously
+
+  * http://ooc-lang.org/ - the latest rock
+
+Steve Dekorte's basekit/coroutine stuff doesn't have any 'make install' that I know of, so just
+copy _build/dll/* into your /usr/lib/ folder and compile with -I/path/to/coroutine/_build/headers
+and -I/path/to/basekit/_build/headers
